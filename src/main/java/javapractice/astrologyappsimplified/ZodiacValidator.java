@@ -1,6 +1,6 @@
 package javapractice.astrologyappsimplified;
 
-public class ZodiacValidator {
+public class ZodiacValidator implements IZodiacValidator{
     public boolean isZodiac(String input) {
         String cleanInput = input.toLowerCase();
         if(cleanInput.equals("aquarius")) {
